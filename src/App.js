@@ -20,7 +20,9 @@ class App extends Component {
   /*loading the script and initializing the map*/
   loadMap = () =>{
     loadScript ("https://maps.googleapis.com/maps/api/js?key=AIzaSyA7UvgrutCeaJTAfnqvkSB1i7fgKFXgLko&callback=initMap")
+    try{
     window.initMap = this.initMap;
+    }catch(p){      console.log(" p : " + p)}
   }
 
   /*endPoint & parameters are set following the guidelines in Foursquare*/
@@ -44,6 +46,7 @@ class App extends Component {
       }, this.loadMap())
     })
     .catch(error => {
+      alert(`Sorry, fetching data from Foursquare is not possible!`)
       console.log("Foursquare error! " + error)
     })
   }
