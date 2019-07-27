@@ -1,68 +1,28 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Neighborhood Map(React) Project:
 
-## Available Scripts
+I have built a single page application featuring a map of popular restaurants in Wilmington, Delaware.
+I have added functionality to this map including highlighted locations,
+third-party data about those locations and various ways to browse the content.
 
-In the project directory, you can run:
 
-### `npm start`
+Required Installation and steps:
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Install all project dependencies with npm install
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+2. npm install axios, a promise based HTTP client for the browser and node.js which is similar to fetch API.
 
-### `npm test`
+3. npm install react-burger-menu, an off-canvas sidebar React component with a collection of effects and 
+    styles using CSS transitions and SVG path animations. I have used it to create the off-canvas sidebar.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+4. npm install escape-string-regexp, that I have used for special characters.
 
-### `npm run build`
+5. I have used Google Maps API.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. As a non-Google third-party API, I have used Foursquare Developers.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+7. To disable an ESLint rule in a file or on a specific line, I have added a comment:
+    //eslint-disable-next-line
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+8. Start the development server with npm start
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+9. Open the web app on http://localhost:3000
